@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <div>
-      <header style={{background:"blue",padding:"10px"}}>
+      <header style={{background:"yellow",padding:"10px"}}>
         heADER
       </header>
     </div>

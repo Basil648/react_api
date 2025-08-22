@@ -3,12 +3,16 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav style={{ background: "purple", padding: "20px" }}>
-      <Link to="/">Home</Link> 
-      <Link to="/about">About</Link> 
-      <Link to="/services">Services</Link> 
-      <Link to="/contact">Contact</Link>
-    </nav>
+    <>
+      <nav style={{ backgroundColor: "pink", padding: "15px" }}>
+
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/services">Services</Link>
+        <Link to="/contact">Contact</Link>
+
+      </nav >
+    </>
   );
 }
 
